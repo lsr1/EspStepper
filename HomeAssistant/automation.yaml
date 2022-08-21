@@ -1,0 +1,13 @@
+alias: Write Stepper Value to ESP
+description: lsr stepper automation
+trigger:
+  - platform: state
+    entity_id:
+      - input_number.stepper_slider
+condition: []
+action:
+  - service: esphome.my_stepper_control_stepper
+    data:
+      target: 4000
+      speed: 4000
+mode: single

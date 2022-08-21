@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "lsr")(type "KiCad")(uri "/home/lsr/own/projects/nema_stepper_hassio/KiCad/misc_footprints/misc_footprints.pretty")(options "")(descr ""))
+)
