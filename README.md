@@ -79,10 +79,10 @@ This will be long. Brace.
 
 |row #|color|board pin|
 ---| --- | ---
-1|BLK|2A
-2|RED|1A
-3|GRN|2B
-4|BLU|1B
+1|BLK|2B
+2|BLU|2A
+3|GRN|1B
+4|RED|1A
 
 ### Software
 * It is assumed you have a working instance of Home Assistant with a working ESPHome plugin. If not, please google how to get there.
